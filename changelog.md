@@ -11,6 +11,14 @@ Dates in the future are upcoming scheduled changes.
 - **PROMOTION** PUT /v2/characters/{character_id}/contacts/ (dev -> latest)
 - **PROMOTION** DELETE /v2/characters/{character_id}/contacts/ (dev -> latest)
 
+# May 18, 2018
+
+- **REMOVAL** GET /v1/characters/{character_id}/chat_channels/
+
+# Apr 27, 2018
+
+- **DEPRECATION** GET /v1/characters/{character_id}/chat_channels/ (latest -> legacy)
+
 # Apr 26, 2018
 
 **New routes**
